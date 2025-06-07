@@ -12,7 +12,7 @@ export default function Page() {
         Will Dennis
       </h1>
       <p className="mb-4">
-        {`I'm a product leader, filmmaker, and software engineer. I'm currently learning full stack web development at Fractal Tech to better build my own AI start up (coming soon).`}
+        {`I'm a product leader, filmmaker, and software engineering student. I'm currently learning full stack web development at Fractal Tech to better build my own AI start up (coming soon).`}
       </p>
       <h2 className={h2Style}>
         {`Select Product & Engineering Work`}
@@ -27,12 +27,12 @@ export default function Page() {
       </ol>
 
       <h2 className={h2Style}>
-        {`Select Filmmaking Work`}
+        {`Select Film Work`}
       </h2>
       <ol className='list-decimal ml-8'>
         <li>Co-Creator "Other People" TV Series (sold to FX Network)</li>
         <li>Writer & Director of Multiple Vimeo Staff Picks</li>
-        <li>Writer & Director Award Winning Feature Film "Vanilla"</li>
+        <li>Writer & Director Award-Winning Feature Film "Vanilla"</li>
         <li>Maker of youtube comedy videos</li>
       </ol>
       <h2 className={h2Style}>
