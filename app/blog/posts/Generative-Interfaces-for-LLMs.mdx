@@ -1,0 +1,22 @@
+---
+title: 'Generative Interfaces for LLMs'
+publishedAt: '2025-06-13'
+summary: 'Early thoughts on the future of interfaces with LLMs'
+---
+
+Building out a chat app using OpenAI this week has made me question whether chat is the interface to end all interfaces. I think the answer is no.  
+
+While chat is clearly great for interacting in real time for conversation, displaying and maintaining state is is a major failure point. 
+
+For example, if I tell ChatGPT to generate a workout for me, it has no problem doing that. But if I complete that workout and want ChatGPT to build me a 6-week workout plan that progress in difficulty based on my day-to-day feedback, where does that live? This problem can be extended with lots of state-based apps – email, calendar, to-do lists… I think it’s why these applications that need to persist state are still very much “outside” the LLM experience. 
+
+So how do you solve this from a UX and technical perspective?
+
+The answer feels like a combination of chat and generative interfaces that the LLM can display in the right context. Taking my workout example, I want to see a video of the exercises, a chart of my progress, a history of my weight. How do ChatGPT and I agree on an interface to persist these states that progress over time? As a user how do I have a feeling of stability that ever-changing chat messages fails to provide?
+
+On the high level technical side, we know LLMs can use tools and it feels like an opportunity to build some tools that can dynamically serve interfaces for specific tasks. Hook these tools up to their own databases (and perhaps some time-based context and memory) and you have the start of a solution. 
+
+Excited to keep exploring this idea and try to build something that blends what LLMs do best (unlimited knowledge and thinking) with the persistence of databases and clickable-UI to give a user a sense of place, continuity and long term progress. 
+
+Let my UI appear when I need it and disappear when I don’t. That feels like a compelling balance. 
+
