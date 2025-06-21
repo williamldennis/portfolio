@@ -1,0 +1,53 @@
+---
+title: 'The Best Hardware Store in the World 
+publishedAt: '2025-06-21'
+summary: 'Continued thoughts on Generative Interfaces, Tools, and LLMs'
+---
+The best hardware store on the planet is called Lendy and it’s in Chinatown in New York. 
+
+It’s just a counter with employees behind it. You tell them what you need and they give it to you. You’re trying to fix an antique chair? Here’s some wood glue perfect for the job. No wandering aisles. No wondering if super glue is a better option (It’s too brittle). Check out Lendy. It’s a thing of beauty. 
+
+Unfortunately, software interfaces are nothing like this. Software interfaces almost always suck. And it’s not their fault. The problem with interfaces is they don’t know what users want – so they have to guess. 
+
+This is actually why apps exist in the first place – they take out 90% of the guesswork for an interface. Opening the calendar app is the user saying “I’m looking for tools related to time.” Opening the email app tells the interface “I want some tools related to email.”
+
+Unfortunately, once you’re inside an app – this general intent becomes pretty useless. Does the user want to send an email or read an email? The app has no idea – so let’s give two affordances and make the user pick. The result? Unopinionated and complex software. 
+
+This leads to nested menus and primary buttons and secondary buttons and guessing what a user wants and hoping to the gods of Swift and HTML that the interface gets it right. The affordances of an app are nothing more than introverted highschoolers hoping they get asked to prom. 
+
+Luckily we’re now able to do better. 
+
+After building an AI personal trainer this week at Fractal’s AI Engineering Acceletor, I was able to put generative UI to the test. Essentially, displaying interfaces that are created based on what a user talks to an LLM about. It’s becoming clear that we can start to explore a new paradigm of software interaction – one that may blow up the ideas of “apps” completely. 
+
+What does that look like? That might look like chatting with an LLM about what your goal is and getting delivered the perfect interface to accomplish that task. 
+
+For example if I want to send an email, I should be able to simply say – I want to send an email to my mom. Then – and this is the important part – an email interface pops up that is complete with a draft and all necessary buttons and affordances relating to that task. 
+
+You might be thinking well, then chat must be “the final interface” – it’s so flexible. I think that’s wrong. 
+
+Chat interfaces are great for chat – but interfaces with task-specific buttons and affordances give a user more control and are more efficient to use. 
+
+If I’m formatting an email, I don’t want to have to chat with an LLM to try to get it to bold a sentence of an email then have it generate another email for me to review. Instead – and this is the important part – I want an interface to pop up that allows me to highlight the text, press a bold button, then press send. The email interface is a better tool for the job of sending an email than chat. 
+
+In essence, the LLM is the employee at the hardware store counter. The interface becomes the wood glue for the job. 
+
+If we extend this thinking to all software, what we’re left with is probably closer to an operating system. Imagine a device with a screen (a “phone” I guess) where you open it, and ask it for what you want – a car to pick me up, the weather, reschedule a meeting, photos of my friends. Then the phone displays not just an app – but the exact interface that is best suited for the task. 
+
+We may see a world where everything becomes fully unbundled into a new stack: 
+LLMs to route requests and display tools
+Tools with interfaces to interact with 
+And content, products, or services that fill these interfaces
+
+In practice, I want to ask an LLM to find me a flight to Colorado, and then I want it to display 4 options with prices, times, airports, and seat maps. I want Delta and United to supply the content – and I want them to bid on my business. 
+
+The upside here is that navigational interface components – sidebar menus, navigation bars, settings pages from hell – they can all go die a painful death.  Plus, we get to take back our attention from interfaces that want to hijack it. 
+
+The counter argument to this future is we end up with a bunch of “Cursors for X”  – task-specific apps that have LLMs side by side with their tools. That could be the case. But a more compelling future is not having the “app” layer at all. The user, the LLMs, and the tools. Then products and services compete for my business.
+
+Just like at the best hardware store in the world. 
+
+![Lendy](lendy.png)
+
+
+
+
