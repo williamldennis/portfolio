@@ -5,15 +5,15 @@ export default function Page() {
 
 
   const h1Style = `mb-8 text-6xl font-semibold tracking-tighter text-green-800`
-  const h2Style = `my-4 font-bold text-lg text-green-800`
+  const h2Style = `my-4 font-bold text-lg text-green-800 mt-14`
 
   return (
     <section>
       <Image
         src="/images/will-dennis-round.png"  // Updated to match the actual file
         alt="Will Dennis"
-        width={180}
-        height={180}
+        width={160}
+        height={160}
         className="mb-8"  // Since it's a round image, you might want equal width/height
       />
       <h1 className={h1Style}>
@@ -24,7 +24,7 @@ export default function Page() {
         {`I’m a former VP of Product and two-time startup founder with a background in building joyful, engaging consumer products — from social platforms to health tools.`}
       </p>
            <p className="mb-4">
-        {`I'm currently building AI-centered products focused on the future of work and human connection.`}
+        {`I'm currently building `}<a href="/projects" className="text-green-800 hover:text-green-600 underline">LLM-centered products</a>{` focused on the future of work and human connection.`}
       </p>
       <p className="mb-4">
         {`I value simplicity, creativity, in-person collaboration, design, and craft - which is why the black text on this site actually contains a hint of green (#001301) to make things feel more cohesive.`}
@@ -32,9 +32,47 @@ export default function Page() {
       <p className="mb-4">
         {`I do my best work when I can blend product leadership with creativity, storytelling, and technology to create new experiences people can't live without.`}
       </p>
+      <h2 className={h2Style}>
+        {`Current Projects`}
+      </h2>
+      <div className="flex gap-4 mb-4">
+        <div className="w-1/2">
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            className="w-full rounded-lg shadow-md border border-gray-200"
+            controls
+          >
+            <source src="/videos/waterfall-demo.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p className="text-center mt-2 font-medium text-green-800">Waterfall</p>
+        </div>
+        <div className="w-1/2">
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            className="w-full rounded-lg shadow-md border border-gray-200"
+            controls
+          >
+            <source src="/videos/whomst.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <p className="text-center mt-2 font-medium text-green-800">Whomst</p>
+        </div>
+      </div>
+      <p className="mb-4">
+        <a href="/projects" className="text-green-800 hover:text-green-600 underline">
+          See my working LLM thesis and related projects →
+        </a>
+      </p>
 
       <h2 className={h2Style}>
-        {`Select Product & Engineering Work`}
+        {`Previous Product & Engineering Work`}
       </h2>
       <ol className='list-decimal ml-8'>
         <li>Fractal AI Accelerator - Summer 2025 (building agents, semantic search)</li>
@@ -46,7 +84,7 @@ export default function Page() {
       </ol>
 
       <h2 className={h2Style}>
-        {`Select Writing & Storytelling Work`}
+        {`Previous Writing & Storytelling Work`}
       </h2>
       <ol className='list-decimal ml-8'>
         <li>Co-Creator "Other People" TV Series (sold to FX Network)</li>
