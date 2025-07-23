@@ -53,7 +53,7 @@ export default function ProjectsPage() {
         {`The user inputs a goal and chats with an AI until that goal is refined into a SMART goal (Specific, Measurable, Achievable, Relevant, Time-Bound). From there, the goal generates a list of tasks. Each task is then assigned one of nine Functions - like communication, research, planning, action, etc.`}
       </p>
       <p className="mb-4">
-        {`Each Function has a subfunction - like communication:email or communication:phone. Then, based on the subfunction type, a unique workflow can be kicked off by an AI agent to accomplish that task, sometimes autonomously (like deep research) and sometimes with human collaboration (like decision making). The goal is to have a set of workflows that are composable to accomplish any high level goal.`}
+        {`Each Function has a subfunction - like communication:email or communication:phone. Then, based on the subfunction type, a unique workflow can be kicked off by an AI agent to accomplish that task, sometimes autonomously (like deep research) and with human collaboration (like decision making). The goal is to have a set of workflows that are composable to accomplish any high level goal.`}
       </p>
       <p className="mb-4">
         {`Today, in 2025, a fair amount of human collaboration in needed. But in the future, with the right workflows and the right agent context, how many tasks can be accomplished solely by agents? Then as humans we get to spend more time thinking about what we want to accomplish, versus how to accomplish it.`}
@@ -95,14 +95,16 @@ export default function ProjectsPage() {
 
       <h3 className="font-semibold text-md text-green-800 mb-2">Approach:</h3>
       <p className="mb-4">
-        {`The user chats with the LLM for 10 question covering some "first date" style questions as well as some Enneagram assessments. From there, the system analyzes the transcripts against other user transcripts to find the most similar person. After this initial "matching step," a new level is unlocked for the user where they can "Ask & Offer" – this is an exploration of marketplace dynamic where the LLM analyzes the asks against the offers and tries to match them accordingly.`}
+        {`The user chats with the LLM for 10 question covering some "first date" style questions as well as some Enneagram assessments. From there, the system analyzes the transcripts against other user transcripts to find the most similar person.`}
+      </p>
+      <p className="mb-4">
+        {`After this initial "matching step," a new level is unlocked for the user where they can "Ask & Offer" – this is an exploration of marketplace style dynamics where the LLM tries to match the asks against the offers.`}
       </p>
 
       <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues:</h3>
       <ul className="list-disc ml-8 mb-4">
         <li><strong>Issue:</strong> The technical problem of comparing every user to each other is an N^2 problem - so exploring an efficient use of semantic search with embeddings with a combination of decision tree may get you 90% of the way there. Then you can use the LLM for the "last mile" of matching.</li>
-        <li><strong>Issue:</strong> Testing network effect products require some patient users :)</li>
-        <li><strong>Question:</strong> Is chatting with an AI actually the best form of user input? Or does it live as perhaps an email client that is passively listening to your messages, and is aware of your existing social network.</li>
+        <li><strong>Question:</strong> Is chatting with an AI actually the best form of user input? Or does it live as perhaps an email client that is passively listening to your messages, and is aware of your existing social network and contacts.</li>
       </ul>
     </section>
   )
