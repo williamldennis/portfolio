@@ -52,7 +52,7 @@ export default function Page() {
         <li>Co-Creator "Other People" TV Series (sold to FX Network)</li>
         <li>Writer & Director of Multiple Short Films (3 Vimeo Staff Picks)</li>
         <li>Writer & Director "Vanilla" (Award-Winning Feature Film)</li>
-        <li>Occasional youtuber (100k+ views)</li>
+        <li>Occasional youtuber (250k+ views)</li>
         <li>Sometimes tech writer (blog posts below)</li>
       </ol>
       <h2 className={h2Style}>
