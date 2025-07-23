@@ -21,36 +21,39 @@ export default function Page() {
       </h1>
 
       <p className="mb-4">
-        {`I’m a former VP of Product and two-time startup founder with a background in building joyful, engaging consumer products — from social platforms to health tools. I recently shifted my focus to hands-on prototyping using AI, full-stack web, and creative design to bring playful, behavior-changing ideas to life.`}
+        {`I’m a former VP of Product and two-time startup founder with a background in building joyful, engaging consumer products — from social platforms to health tools.`}
+      </p>
+           <p className="mb-4">
+        {`I'm currently building AI-centered products focused on the future of work and human connection.`}
       </p>
       <p className="mb-4">
-        {`I care about strategy, design, and craft, which is why the black text on this site actually contains a hint of green (#001301) to make everything feel more cohesive.`}
+        {`I value simplicity, creativity, in-person collaboration, design, and craft - which is why the black text on this site actually contains a hint of green (#001301) to make things feel more cohesive.`}
       </p>
       <p className="mb-4">
-        {`I’m looking for roles or collaborators where I can blend product leadership with creativity, storytelling, and technology to make something people can't live without.`}
+        {`I do my best work when I can blend product leadership with creativity, storytelling, and technology to create new experiences people can't live without.`}
       </p>
 
       <h2 className={h2Style}>
         {`Select Product & Engineering Work`}
       </h2>
       <ol className='list-decimal ml-8'>
-        <li>Summer 2025 Fractal Tech AI Accelerator Cohort</li>
+        <li>Fractal AI Accelerator - Summer 2025 (building agents, semantic search)</li>
         <li>VP of Product at WeightWatchers ($1 billion revenue digital product line)</li>
-        <li>PM at WhatsApp (2 billion users)</li>
+        <li>Product Manager at WhatsApp (2 billion user product surface)</li>
         <li>Head of Product at HouseParty (acquired by Epic Games)</li>
-        <li>Product consultant for companies like Peloton, Stash, and Human Ventures</li>
-        <li>CEO and product cofounder of two seed-funded companies (failed :))</li>
+        <li>Product and UX consultant (Peloton, Stash, Human Ventures)</li>
+        <li>CEO and cofounder of two seed-funded start ups (failed but learned :))</li>
       </ol>
 
       <h2 className={h2Style}>
-        {`Select Film & Writing Work`}
+        {`Select Writing & Storytelling Work`}
       </h2>
       <ol className='list-decimal ml-8'>
         <li>Co-Creator "Other People" TV Series (sold to FX Network)</li>
-        <li>Writer & Director of Multiple Vimeo Staff Picks</li>
-        <li>Writer & Director Award-Winning Feature Film "Vanilla"</li>
-        <li>Occasional youtube comedy videos (100k+ views)</li>
-        <li>See blog posts below</li>
+        <li>Writer & Director of Multiple Short Films (3 Vimeo Staff Picks)</li>
+        <li>Writer & Director "Vanilla" (Award-Winning Feature Film)</li>
+        <li>Occasional youtuber (100k+ views)</li>
+        <li>Sometimes tech writer (blog posts below)</li>
       </ol>
       <h2 className={h2Style}>
         {`Get in touch`}
