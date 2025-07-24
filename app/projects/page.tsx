@@ -15,10 +15,10 @@ export default function ProjectsPage() {
         {`While most of the LLM applications today use a copilot model to accomplish work `}<em>with</em>{` an LLM, almost all online interactions in the future will be mediated `}<em>through</em>{` an LLM.`}
       </p>
       <p className="mb-4">
-        {`To be clear, a few channels will continue to exist for human-to-human interactions (like private messaging), but most productive work (like accomplishing personal or professional tasks) will have LLMs at their core – as both interpreter and information router. This could look like an operating system, or it could look like an app layer.`}
+        {`To be clear, a few channels will continue to exist for human-to-human interactions (like private messaging), but most productive work (like accomplishing personal or professional tasks) will have LLMs as the primary mediator – acting both as interpreter and information router. This could look like an operating system, or it could look like an app layer.`}
       </p>
       <p className="mb-4">
-        {`I've been working on a few projects that explore this idea.`}
+        {`I've been working on a few projects that explore this idea - one for the future of work, and one for the future of human connection.`}
       </p>
 
       <hr className="my-8 border-gray-300" />
