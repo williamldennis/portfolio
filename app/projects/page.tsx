@@ -1,3 +1,8 @@
+export const metadata = {
+  title: 'Projects',
+  description: 'Some projects on the future of work and human connection.',
+}
+
 export default function ProjectsPage() {
   const h1Style = `mb-8 text-6xl font-semibold tracking-tighter text-green-800`
   const h2Style = `mt-8 mb-4 font-bold text-lg text-green-800`
