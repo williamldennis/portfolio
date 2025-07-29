@@ -29,6 +29,58 @@ export default function ProjectsPage() {
       <hr className="my-8 border-gray-300" />
 
       <h2 className={h2Style}>
+        {`Project Dream Machine`}
+      </h2>
+      <div className="mb-4">
+        <video 
+          autoPlay 
+          loop 
+          muted 
+          playsInline
+          className="w-full max-w-xl rounded-lg shadow-md border border-gray-200"
+          controls
+        >
+          <source src="/videos/dreammachine-demo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      
+      <h3 className="font-semibold text-md text-green-800 mb-2">Project Thesis</h3>
+      <p className="mb-4">
+        {`I believe there is a huge pool of human value left untapped. We all have skills, abilities, wants, and needs. Imagine a world where we each had a superconnector working for us 24/7 that was looking to connect with others who needed our help and those who could help us. I want to explore a system that tries to maximize human value exchange. That's why I built The Dream Machine.`}
+      </p>
+
+      <h3 className="font-semibold text-md text-green-800 mb-2">Approach</h3>
+      <p className="mb-4">
+        {`Do you remember the FatFingers site? It lets you easily search eBay for typos to find mistyped listings. Those mistyped listings receive less bids, and are therefore more affordable.`}
+      </p>
+      <p className="mb-4">
+        {`I believe structured data for marketplaces is flawed. As users, we've been trained to search and filter by strict categories to try and find our products. In recent years, semantic search has improved this (ie an ecommerce site might show a skirt when the user searches for a dress). While a better ecommerce experience is nice, semantic search can actually form the backbone of an entirely new user experience. The user experience can embrace the probabilistic nature of matching via semantic search and let the matching delight and at times surprise.`}
+      </p>
+      <p className="mb-4">
+        {`The Dream Machine takes raw user inputs in the form of unstructured offerings and needs and parses those into individual "entities" that are each given an embedding. When new entities enter the system their matched against existing embedding scores. From there, an LLM analyzes the entities and decides if it makes sense to connect.`}
+      </p>
+      <p className="mb-4">
+        {`An interesting outcome from testing is where the LLM matched a user who needs help moving with a user who has a car to offer. As a human, I never would have made that connection but… it makes some sense.`}
+      </p>
+      <p className="mb-4">
+
+      {`It's sort of like Craigslist but delightful, exciting, and mysterious.`}
+
+      </p>
+      <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues</h3>
+      <ol className="list-decimal ml-8 mb-4">
+        <li><strong>Question:</strong> If this is used for shopping, does there need to the ability to browse?</li>
+        <li><strong>Issue:</strong> This first version doesn't have a user profile or location, which feels like a necessary filter for certain matches.</li>
+        <li><strong>Question:</strong> Does this service work best as a local want-ads like Craiglist or something more like a digital social network? You could imagine spinning groups out of this.</li>
+        <li><strong>Question:</strong> Not all offers and asks should exist in perpetuity. How do you thoughtfully handle this? Does the user have to input a duration for each entity?</li>
+        <li><strong>Question:</strong> What does reputation look like on a system like this? Is it needed?</li>
+        <li><strong>Issue:</strong> Need to add some rate limiting / match limiting to prevent spam or matching many times with the same two people. Maybe that's ok within reason…</li>
+      </ol>
+
+      <hr className="my-8 border-gray-300" />
+
+      <h2 className={h2Style}>
         {`Project Waterfall`}
       </h2>
       <div className="mb-4">
@@ -45,7 +97,7 @@ export default function ProjectsPage() {
         </video>
       </div>
       
-      <h3 className="font-semibold text-md text-green-800 mb-2">Project Thesis:</h3>
+      <h3 className="font-semibold text-md text-green-800 mb-2">Project Thesis</h3>
       <p className="mb-4">
         {`I believe the future work will be accomplished by managing multiple AI agents and targeting them towards a single human-centric goal. Ie "I want to build a house in upstate New York."`}
       </p>
@@ -53,7 +105,7 @@ export default function ProjectsPage() {
         {`The agents will then interpret this goal, break it down into tasks, and drive progress towards the goal. They will loop you in for human-centric decisions around taste, subjective quality, or personal preference. I wanted to explore how you might manage a team of agents to accomplish such a goal, so I built Waterfall.`}
       </p>
 
-      <h3 className="font-semibold text-md text-green-800 mb-2">Approach:</h3>
+      <h3 className="font-semibold text-md text-green-800 mb-2">Approach</h3>
       <p className="mb-4">
         {`The user inputs a goal and chats with an AI until that goal is refined into a SMART goal (Specific, Measurable, Achievable, Relevant, Time-Bound). From there, the goal generates a list of tasks. Each task is then assigned one of nine Functions - like communication, research, planning, action, etc.`}
       </p>
@@ -64,7 +116,7 @@ export default function ProjectsPage() {
         {`Today, in 2025, a fair amount of human collaboration in needed. But in the future, with the right workflows and the right agent context, how many tasks can be accomplished solely by agents? Then as humans we get to spend more time thinking about what we want to accomplish, versus how to accomplish it.`}
       </p>
 
-      <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues:</h3>
+      <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues</h3>
       <ul className="list-disc ml-8 mb-4">
         <li><strong>Question:</strong> Does this thinking extrapolate from goals into a meta-goal or optimization function? For example, would you simply tell your team of agents to maximize profits within the bounds of the law.</li>
         <li><strong>Issue:</strong> The internet is a bit of a walled garden. If you're trying to find emails on the internet and use them in an email autonomously, what's the cleanest most reliable way to do that?</li>
@@ -90,7 +142,7 @@ export default function ProjectsPage() {
         </video>
       </div>
       
-      <h3 className="font-semibold text-md text-green-800 mb-2">Project Thesis:</h3>
+      <h3 className="font-semibold text-md text-green-800 mb-2">Project Thesis</h3>
       <p className="mb-4">
         {`I believe the future of human-to-human connection will be mediated via an LLM. This could be for things like dating, professional networking, or perhaps even email.`}
       </p>
@@ -98,7 +150,7 @@ export default function ProjectsPage() {
         {`To explore this idea, I wanted to start with a simple "who you should meet" use case, which could in theory extend to marketplaces, dating, professional networking, or any other scenario where two strangers need a reasonable signal to connect. Could an LLM connect you to another stranger in a system based on just a handful of user inputs? That's what I wanted to explore with Whomst.`}
       </p>
 
-      <h3 className="font-semibold text-md text-green-800 mb-2">Approach:</h3>
+      <h3 className="font-semibold text-md text-green-800 mb-2">Approach</h3>
       <p className="mb-4">
         {`The user chats with the LLM for 10 question covering some "first date" style questions as well as some Enneagram assessments. From there, the system analyzes the transcripts against other user transcripts to find the most similar person.`}
       </p>
@@ -106,11 +158,13 @@ export default function ProjectsPage() {
         {`After this initial "matching step," a new level is unlocked for the user where they can "Ask & Offer" – this is an exploration of marketplace style dynamics where the LLM tries to match the asks against the offers.`}
       </p>
 
-      <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues:</h3>
+      <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues</h3>
       <ul className="list-disc ml-8 mb-4">
         <li><strong>Issue:</strong> The technical problem of comparing every user to each other is an N^2 problem - so exploring an efficient use of semantic search with embeddings with a combination of decision tree may get you 90% of the way there. Then you can use the LLM for the "last mile" of matching.</li>
         <li><strong>Question:</strong> Is chatting with an AI actually the best form of user input? Or does it live as perhaps an email client that is passively listening to your messages, and is aware of your existing social network and contacts.</li>
       </ul>
+
+      <hr className="my-8 border-gray-300" />
     </section>
   )
 } 
