@@ -44,6 +44,11 @@ export default function ProjectsPage() {
           Your browser does not support the video tag.
         </video>
       </div>
+      <p className="mb-4">
+        <a href="https://thedreammachine.ai" target="_blank" rel="noopener noreferrer" className="text-green-800 underline">
+          thedreammachine.ai
+        </a>
+      </p>
       
       <h3 className="font-semibold text-md text-green-800 mb-2">Project Thesis</h3>
       <p className="mb-4">
@@ -55,7 +60,10 @@ export default function ProjectsPage() {
         {`Do you remember the FatFingers site? It lets you easily search eBay for typos to find mistyped listings. Those mistyped listings receive less bids, and are therefore more affordable.`}
       </p>
       <p className="mb-4">
-        {`I believe structured data for marketplaces is flawed. As users, we've been trained to search and filter by strict categories to try and find our products. In recent years, semantic search has improved this (ie an ecommerce site might show a skirt when the user searches for a dress). While a better ecommerce experience is nice, semantic search can actually form the backbone of an entirely new user experience. The user experience can embrace the probabilistic nature of matching via semantic search and let the matching delight and at times surprise.`}
+        {`I believe structured data for marketplaces is flawed. As users, we've been trained to search and filter by strict categories to try and find our products. In recent years, semantic search has improved this (ie an ecommerce site might show a skirt when the user searches for a dress).`}
+      </p>
+      <p className="mb-4">
+        {`While a better ecommerce experience is nice, semantic search can actually form the backbone of an entirely new user experience. The user experience can embrace the probabilistic nature of matching via semantic search and let the matching delight and at times surprise.`}
       </p>
       <p className="mb-4">
         {`The Dream Machine takes raw user inputs in the form of unstructured offerings and needs and parses those into individual "entities" that are each given an embedding. When new entities enter the system their matched against existing embedding scores. From there, an LLM analyzes the entities and decides if it makes sense to connect.`}
@@ -96,6 +104,7 @@ export default function ProjectsPage() {
           Your browser does not support the video tag.
         </video>
       </div>
+      
       
       <h3 className="font-semibold text-md text-green-800 mb-2">Project Thesis</h3>
       <p className="mb-4">
