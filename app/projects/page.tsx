@@ -23,7 +23,7 @@ export default function ProjectsPage() {
         {`To be clear, a few channels will continue to exist for human-to-human interactions (like private messaging), but most productive work (like accomplishing personal or professional tasks) will have LLMs as the primary mediator – acting both as interpreter and information router. This could look like an operating system, or it could look like an app layer.`}
       </p>
       <p className="mb-4">
-        {`I've been working on a few projects that explore this idea - one for the future of work, and one for the future of human connection.`}
+        {`I've been working on a few projects that explore this idea - one on the future of work, and a few on the future of human connection.`}
       </p>
 
       <hr className="my-8 border-gray-300" />
@@ -52,38 +52,40 @@ export default function ProjectsPage() {
       
       <h3 className="font-semibold text-md text-green-800 mb-2">Project Thesis</h3>
       <p className="mb-4">
-        {`I believe there is a huge pool of human value left untapped. We all have skills, abilities, wants, and needs. Imagine a world where we each had a superconnector working for us 24/7 that was looking to connect with others who needed our help and those who could help us. I want to explore a system that tries to maximize human value exchange. That's why I built The Dream Machine.`}
+        {`I believe humans can provide a ton of value to one another but the majority of that value is untapped. We all have skills, abilities, wants, and needs. Imagine a world where we each have a superconnector working nonstop to connect us with others, maximizing the value exchange within our society. I wanted to explore what this might feel like, so I built The Dream Machine.`}
       </p>
 
       <h3 className="font-semibold text-md text-green-800 mb-2">Approach</h3>
       <p className="mb-4">
-        {`Do you remember the FatFingers site? It lets you easily search eBay for typos to find mistyped listings. Those mistyped listings receive less bids, and are therefore more affordable.`}
+        {`The Dream Machine takes raw user inputs in the form of unstructured offerings and needs ("dreams") and parses those into individual "entities" that are each given an embedding. When new users add dreams to the system, those dreams are scored against existing embeddings. From there, an LLM analyzes the entities themselves and decides if there is sufficient reason to connect the two parties.`}
       </p>
       <p className="mb-4">
-        {`I believe structured data for marketplaces is flawed. As users, we've been trained to search and filter by strict categories to try and find our products. In recent years, semantic search has improved this (ie an ecommerce site might show a skirt when the user searches for a dress).`}
+        {`The user then receives a "match" and can decide to "connect." Once both users choose to connect, they are cc'ed via email. It's a double opt-in approach that preserves intentionality and privacy.`}
       </p>
       <p className="mb-4">
-        {`While a better ecommerce experience is nice, semantic search can actually form the backbone of an entirely new user experience. The user experience can embrace the probabilistic nature of matching via semantic search and let the matching delight and at times surprise.`}
+        {`It's sort of like Craigslist but delightful, exciting, and mysterious. And without the effort of searching through endless listings.`}
       </p>
-      <p className="mb-4">
-        {`The Dream Machine takes raw user inputs in the form of unstructured offerings and needs and parses those into individual "entities" that are each given an embedding. When new entities enter the system their matched against existing embedding scores. From there, an LLM analyzes the entities and decides if it makes sense to connect.`}
-      </p>
-      <p className="mb-4">
-        {`An interesting outcome from testing is where the LLM matched a user who needs help moving with a user who has a car to offer. As a human, I never would have made that connection but… it makes some sense.`}
-      </p>
-      <p className="mb-4">
 
-      {`It's sort of like Craigslist but delightful, exciting, and mysterious.`}
-
+      <h3 className="font-semibold text-md text-green-800 mb-2">Learnings</h3>
+      <p className="mb-4">
+        {`One interesting outcome from testing is where a user who needs help moving was matched with a user who has a car to offer. As a human, I may never have made that connection but… it makes some sense.`}
       </p>
+      <p className="mb-4">
+        {`Another clear early learning is the elements that are required to create a compelling and relevant "value exchange" – the variables seem to be specificity, timeliness, and venue (either online or in the same city, for example). It's really the same elements that any good central market solves in a big city.`}
+      </p>
+      <p className="mb-4">
+        {`Each individual can supply a lot of "inventory" in the form of offers and dreams, which is helpful for the cold-start problem of many social networks. And given the user identity is hidden until there's a connection and there's no user directory, the system feels bigger than it is. And when it comes to GTM feels like an easier lift than an "old school" social network.`}
+      </p>
+
       <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues</h3>
       <ol className="list-decimal ml-8 mb-4">
-        <li><strong>Question:</strong> If this is used for shopping, does there need to the ability to browse?</li>
-        <li><strong>Issue:</strong> This first version doesn't have a user profile or location, which feels like a necessary filter for certain matches.</li>
+        <li><strong>Question:</strong> If this is used for shopping, does there need to be the ability to browse?</li>
         <li><strong>Question:</strong> Does this service work best as a local want-ads like Craiglist or something more like a digital social network? You could imagine spinning groups out of this.</li>
-        <li><strong>Question:</strong> Not all offers and asks should exist in perpetuity. How do you thoughtfully handle this? Does the user have to input a duration for each entity?</li>
+        <li><strong>Question:</strong> Not all offers and asks should exist in perpetuity. How do you thoughtfully handle this?</li>
         <li><strong>Question:</strong> What does reputation look like on a system like this? Is it needed?</li>
+        <li><strong>Question:</strong> Does messaging need to live on platform? Do we need to preserve anonymity throughout the exchnage like craigslist?</li>
         <li><strong>Issue:</strong> Need to add some rate limiting / match limiting to prevent spam or matching many times with the same two people. Maybe that's ok within reason…</li>
+        <li><strong>Issue:</strong> This first version doesn't have a user profile or location, which feels like a necessary filter for certain matches.</li>
       </ol>
 
       <hr className="my-8 border-gray-300" />
