@@ -71,9 +71,6 @@ export default function ProjectsPage() {
         {`One interesting outcome from testing is where a user who needs help moving was matched with a user who has a car to offer. As a human, I may never have made that connection but… it makes some sense.`}
       </p>
       <p className="mb-4">
-        {`Another clear early learning is the elements that are required to create a compelling and relevant "value exchange" – the variables seem to be specificity, timeliness, and venue (either online or in the same city, for example). It's really the same elements that any good central market solves in a big city.`}
-      </p>
-      <p className="mb-4">
         {`Each individual can supply a lot of "inventory" in the form of offers and dreams, which is helpful for the cold-start problem of many social networks. And given the user identity is hidden until there's a connection and there's no user directory, the system feels bigger than it is. And when it comes to GTM feels like an easier lift than an "old school" social network.`}
       </p>
 
@@ -84,7 +81,7 @@ export default function ProjectsPage() {
         <li><strong>Question:</strong> Not all offers and asks should exist in perpetuity. How do you thoughtfully handle this?</li>
         <li><strong>Question:</strong> What does reputation look like on a system like this? Is it needed?</li>
         <li><strong>Question:</strong> Does messaging need to live on platform? Do we need to preserve anonymity throughout the exchnage like craigslist?</li>
-        <li><strong>Issue:</strong> Need to add some rate limiting / match limiting to prevent spam or matching many times with the same two people. Maybe that's ok within reason…</li>
+        <li><strong>Issue:</strong> Need to add some rate limiting / match limiting to prevent spam or matching many times between the same two people. Maybe that's ok within reason…</li>
         <li><strong>Issue:</strong> This first version doesn't have a user profile or location, which feels like a necessary filter for certain matches.</li>
       </ol>
 
