@@ -75,7 +75,7 @@ export default function Page() {
         {`Previous Product & Engineering Work`}
       </h2>
       <ol className='list-decimal ml-8'>
-        <li>Fractal AI Engineering Cohort - Summer 2025 (building agents, semantic search)</li>
+        <li>Fractal AI Engineering Program - S25 (building agents, semantic search)</li>
         <li>VP of Product at WeightWatchers ($1 billion revenue digital product line)</li>
         <li>Product Manager at WhatsApp (2 billion user product surface)</li>
         <li>Head of Product at HouseParty (acquired by Epic Games)</li>
