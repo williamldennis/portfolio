@@ -67,12 +67,14 @@ export default function ProjectsPage() {
       </p>
 
       <h3 className="font-semibold text-md text-green-800 mb-2">Learnings</h3>
-      <p className="mb-4">
-        {`One interesting outcome from testing is where a user who needs help moving was matched with a user who has a car to offer. As a human, I may never have made that connection but… it makes some sense.`}
-      </p>
-      <p className="mb-4">
-        {`Each individual can supply a lot of "inventory" in the form of offers and dreams, which is helpful for the cold-start problem of many social networks. And given the user identity is hidden until there's a connection and there's no user directory, the system feels bigger than it is. And when it comes to GTM feels like an easier lift than an "old school" social network.`}
-      </p>
+      <ol className="list-decimal ml-8 mb-4">
+        <li>
+          {`One interesting outcome from testing is where a user who needs help moving was matched with a user who has a car to offer. As a human, I may never have made that connection but… it makes some sense.`}
+        </li>
+        <li>
+        {`Each individual can supply a lot of "inventory" in the form of offers and dreams, which is helpful for the cold-start problem of many social networks.`}
+        </li>
+      </ol>
 
       <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues</h3>
       <ol className="list-decimal ml-8 mb-4">
@@ -118,18 +120,18 @@ export default function ProjectsPage() {
         {`The user inputs a goal and chats with an AI until that goal is refined into a SMART goal (Specific, Measurable, Achievable, Relevant, Time-Bound). From there, the goal generates a list of tasks. Each task is then assigned one of nine Functions - like communication, research, planning, action, etc.`}
       </p>
       <p className="mb-4">
-        {`Each Function has a subfunction - like communication:email or communication:phone. Then, based on the subfunction type, a unique workflow can be kicked off by an AI agent to accomplish that task, sometimes autonomously (like deep research) and with human collaboration (like decision making). The goal is to have a set of workflows that are composable to accomplish any high level goal.`}
+        {`Each Function has a subfunction - like communication:email or communication:phone. Then, based on the subfunction type, a unique workflow can be kicked off by an AI agent to accomplish that task, sometimes autonomously (like deep research) or with human collaboration (like decision making). The goal is to have a set of workflows that are composable to accomplish any high level goal. Like Lego for getting things done.`}
       </p>
       <p className="mb-4">
-        {`Today, in 2025, a fair amount of human collaboration in needed. But in the future, with the right workflows and the right agent context, how many tasks can be accomplished solely by agents? Then as humans we get to spend more time thinking about what we want to accomplish, versus how to accomplish it.`}
+        {`Today, in 2025, a fair amount of human-in-the-loop is needed. But in the future, with the right workflows and the right agent context, how many tasks can be accomplished solely by agents? Ideally we humans get to spend more time thinking about what we want to accomplish, versus how to accomplish it.`}
       </p>
 
       <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues</h3>
-      <ul className="list-disc ml-8 mb-4">
-        <li><strong>Question:</strong> Does this thinking extrapolate from goals into a meta-goal or optimization function? For example, would you simply tell your team of agents to maximize profits within the bounds of the law.</li>
-        <li><strong>Issue:</strong> The internet is a bit of a walled garden. If you're trying to find emails on the internet and use them in an email autonomously, what's the cleanest most reliable way to do that?</li>
+      <ol className="list-decimal ml-8 mb-4">
+        <li><strong>Question:</strong> Does this all end in one high-level optimization function? For example, would you simply tell your team of agents to maximize profits within the bounds of the law.</li>
         <li><strong>Question:</strong> Is the goal-task paradigm the right one to manage ongoing workflows, or are threaded conversations like slack better for organizing ongoing work? As a slack user, I hope that's not the case :)</li>
-      </ul>
+        <li><strong>Issue:</strong> The internet is a bit of a walled garden. If you're trying to find emails on the internet and use them in an email autonomously, what's the cleanest and most reliable way to do that?</li>
+      </ol>
 
       <hr className="my-8 border-gray-300" />
 
@@ -162,15 +164,12 @@ export default function ProjectsPage() {
       <p className="mb-4">
         {`The user chats with the LLM for 10 question covering some "first date" style questions as well as some Enneagram assessments. From there, the system analyzes the transcripts against other user transcripts to find the most similar person.`}
       </p>
-      <p className="mb-4">
-        {`After this initial "matching step," a new level is unlocked for the user where they can "Ask & Offer" – this is an exploration of marketplace style dynamics where the LLM tries to match the asks against the offers.`}
-      </p>
 
       <h3 className="font-semibold text-md text-green-800 mb-2">Questions & Issues</h3>
-      <ul className="list-disc ml-8 mb-4">
-        <li><strong>Issue:</strong> The technical problem of comparing every user to each other is an N^2 problem - so exploring an efficient use of semantic search with embeddings with a combination of decision tree may get you 90% of the way there. Then you can use the LLM for the "last mile" of matching.</li>
+      <ol className="list-decimal ml-8 mb-4">
+        <li><strong>Issue:</strong> Comparing every user to each other is an N^2 problem - so exploring an efficient use of semantic search combined with a decision tree may get you 90% of the way there. Then you can use the LLM for the "last mile" of matching.</li>
         <li><strong>Question:</strong> Is chatting with an AI actually the best form of user input? Or does it live as perhaps an email client that is passively listening to your messages, and is aware of your existing social network and contacts.</li>
-      </ul>
+      </ol>
 
       <hr className="my-8 border-gray-300" />
     </section>
