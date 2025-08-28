@@ -21,16 +21,19 @@ export default function Page() {
       </h1>
 
       <p className="mb-4">
-        {`I’m a former VP of Product and two-time startup founder with a background in building joyful, engaging consumer products — from social platforms to health tools.`}
+        {`I’m a two-time start up founder and former VP of Product with a track record for building viral, engaging consumer products like Houseparty and WhatsApp that are used by billions.`}
       </p>
            <p className="mb-4">
-        {`I'm currently building `}<a href="/projects" className="text-green-800 hover:text-green-600 underline">LLM-centered products</a>{` focused on the future of work and human connection.`}
+        {`I'm currently building `}<a href="/projects" className="text-green-800 hover:text-green-600 underline">LLM-powered products</a>{` focused on the future of work and human connection.`}
       </p>
       <p className="mb-4">
-        {`I value simplicity, creativity, in-person collaboration, design, and craft - which is why the black text on this site actually contains a hint of green (#001301) to make things feel more cohesive.`}
+        {`I do my best work when I’m collaborating in-person at the intersection of novel user experiences, storytelling, human psychology, technology, and unproven ideas.`}
       </p>
+      <h2 className={h2Style}>
+        {`Get in touch`}
+      </h2>
       <p className="mb-4">
-        {`I do my best work when I can blend product leadership with creativity, storytelling, and technology to create new experiences people can't live without.`}
+        {`Feel free to reach out if you think I could be helpful or just to say hello. williamldennis@gmail.com`}
       </p>
       <h2 className={h2Style}>
         {`Current Projects`}
@@ -59,10 +62,10 @@ export default function Page() {
             className="w-full rounded-lg shadow-md border border-gray-200"
             controls
           >
-            <source src="/videos/whomst.mp4" type="video/mp4" />
+            <source src="/videos/dreammachine-demo.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <p className="text-center mt-2 font-medium text-green-800">Whomst</p>
+          <p className="text-center mt-2 font-medium text-green-800">The Dream Machine</p>
         </div>
       </div>
       <p className="mb-4">
@@ -93,12 +96,6 @@ export default function Page() {
         <li>Occasional youtuber (250k+ views)</li>
         <li>Sometimes tech writer (blog posts below)</li>
       </ol>
-      <h2 className={h2Style}>
-        {`Get in touch`}
-      </h2>
-      <p className="mb-4">
-        {`Feel free to reach out if you think I could be helpful or just to say hello. williamldennis@gmail.com`}
-      </p>
       <h2 className={h2Style}>
         {`Blog`}
       </h2>
