@@ -21,13 +21,10 @@ export default function Page() {
       </h1>
 
       <p className="mb-4">
-        {`I’m a two-time start up founder and former VP of Product with a track record for building viral, engaging consumer products like Houseparty and WhatsApp that are used by billions.`}
+        {`I’m a two-time start up founder and former VP of Product at WeightWatchers with a track record for building viral, engaging consumer products like Houseparty and WhatsApp that are used by billions.`}
       </p>
            <p className="mb-4">
-        {`I'm currently building `}<a href="/projects" className="text-green-800 hover:text-green-600 underline">LLM-powered products</a>{` focused on the future of work and human connection.`}
-      </p>
-      <p className="mb-4">
-        {`I do my best work when I’m collaborating in-person at the intersection of novel user experiences, storytelling, human psychology, technology, and unproven ideas.`}
+        {`I'm currently building a new company. We're in stealth but more soon.`}
       </p>
       <h2 className={h2Style}>
         {`Get in touch`}
@@ -36,7 +33,7 @@ export default function Page() {
         {`Feel free to reach out if you think I could be helpful or just to say hello. williamldennis@gmail.com`}
       </p>
       <h2 className={h2Style}>
-        {`Current Projects`}
+        {`Previous Projects`}
       </h2>
       <div className="flex gap-4 mb-4">
         <div className="w-1/2">
