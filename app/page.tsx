@@ -24,7 +24,7 @@ export default function Page() {
         {`I’m a two-time start up founder and former VP of Product at WeightWatchers with a track record for building viral, engaging consumer products like Houseparty and WhatsApp that are used by billions.`}
       </p>
            <p className="mb-4">
-        {`I'm currently building a new company. We're in stealth but more soon.`}
+{`I'm currently cofounding a new company called `}<a href="https://usehammock.co" target="_blank" rel="noopener noreferrer" className="text-green-800 hover:text-green-600 underline">Hammock</a>.
       </p>
       <h2 className={h2Style}>
         {`Get in touch`}
